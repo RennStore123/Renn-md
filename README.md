@@ -49,21 +49,14 @@ heroku/nodejs
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
-
-## How to Get Mongodb URI
-- Tonton [Di YouTube](https://youtu.be/M8H9S3djxTg)
-<img src="https://telegra.ph/file/682c1315ff9a43bb1a724.jpg" width="300">
-- Jika sudah memiliki database mongoDB ikuti tutorial di bawah
-
-## HOW TO CONNECT TO MONGODB
-
-- Salin Url database mongoDB
-- Constoh `worker: node . --db 'Link Database MongoDb'`
-- Contoh `worker: node . --db 'mongodb+srv://mongodb-bot:abcdefghij@zeeoneofc.aWpl9.mongodb.net/?retryWrites=true&w=majority'`
-
 ## For Termux
-- Download script MediaFire [Here](https://telegra.ph/Alphabot-Md-V14-08-02)
-- Cara install tonton Di [YouTube](https://youtu.be/ep_PM1PpEVg)
+```ts
+apt update && apt upgrade
+pkg install bash
+git clone https://github.com/zeeone-ofc/Alphabot-Md.git
+cd Alphabot-Md
+bash install.sh
+```
 
 ## Edit file
 `./settings.js`
